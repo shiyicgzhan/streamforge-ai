@@ -41,6 +41,8 @@ Future versions may support Iceberg table sinks for incremental analytics.
 ### 4.4 Prefetch layer
 A lightweight prefetch engine analyzes expected access patterns and pulls selected objects into a hot cache area before an ML job starts.
 
+For the full detailed breakdown (including module boundaries and design decisions), see `docs/ARCHITECTURE.md`.
+
 ## 5. Initial module boundaries
 
 - `ingestion-service/`
